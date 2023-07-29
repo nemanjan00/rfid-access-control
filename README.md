@@ -96,6 +96,12 @@ Input signal:
 
  * OSDP (out of scope)
 
+Output signal:
+
+ * Control the relay
+
+ * Audiovisual feedback
+
 ## Attacks
 
 ## Extra - Privacy concerns with UHF RFID cards
