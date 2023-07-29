@@ -36,6 +36,7 @@ If you want to find more about some kind of credential, please, bring it and I w
 	* [Data modulation](#data-modulation)
 	* [LF cards](#lf-cards)
 	* [HF cards](#hf-cards)
+	* [HF card standards](#hf-card-standards)
 * [Controller](#controller)
 * [Attacks](#attacks)
 * [Extra - Privacy concerns with UHF RFID cards](#extra---privacy-concerns-with-uhf-rfid-cards)
@@ -88,7 +89,7 @@ Frequency:
 
  * LF (125kHz, 134khz)
 
- * HF (13.5Mhz)
+ * HF (13.56Mhz)
  
  * UHF (300Mhz - 3Ghz) - Mostly for inventory systems, parking and tolls
 
@@ -125,6 +126,14 @@ Load modulation
  * Lower range
 
  * Very flexible in terms of features
+
+ * Quite a few standards, substandards and classes of standards implementations
+
+### HF card standards
+
+RF communication: ISO 14443 A, ISO 14443 B, ISO 15693, ISO 18092
+
+Application protocols: ISO 7816 (APDU) over ISO 14443 A/ISO 14443 B, Mifare Classic, Mifare Ultralight, ISO 15693 (NFC-V)
 
 ## Controller
 
