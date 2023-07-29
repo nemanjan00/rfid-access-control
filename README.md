@@ -114,6 +114,8 @@ Load modulation
 
    * Baudrate
 
+   * Inverted
+
 ### HF cards
 
  * Two-way communication
