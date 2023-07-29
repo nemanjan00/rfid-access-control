@@ -104,14 +104,14 @@ Product identification by GS1 standards
 
  * UPC
 
-  * Company prefix
-
-  * Item reference number
+   * Company prefix
+ 
+   * Item reference number
 
  * EPC
 
-  * Company prefix
-
-  * Item reference number
-
-  * Product serial number
+   * Company prefix
+ 
+   * Item reference number
+ 
+   * Product serial number
