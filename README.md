@@ -35,8 +35,9 @@ If you want to find more about some kind of credential, please, bring it and I w
 	* [Powering card](#powering-card)
 	* [Data modulation](#data-modulation)
 	* [LF cards](#lf-cards)
+		* [LF card standards](#lf-card-standards)
 	* [HF cards](#hf-cards)
-	* [HF card standards](#hf-card-standards)
+		* [HF card standards](#hf-card-standards)
 * [Controller](#controller)
 * [Attacks](#attacks)
 * [Extra - Privacy concerns with UHF RFID cards](#extra---privacy-concerns-with-uhf-rfid-cards)
@@ -79,6 +80,10 @@ Card -> Reader -> Controller -> Door
 
 Unique ID
 
+ * Different length
+
+ * Magic cards
+
 Power supply:
 
  * Active
@@ -117,6 +122,22 @@ Load modulation
 
    * Inverted
 
+#### LF card standards
+
+ * HID Proxcard
+
+ * EM4100
+
+ * HiTag
+
+ * Indala
+
+...
+
+ * T5577 can emulate other cards
+
+ * EM4305 can emulate other cards
+
 ### HF cards
 
  * Two-way communication
@@ -129,7 +150,7 @@ Load modulation
 
  * Quite a few standards, substandards and classes of standards implementations
 
-### HF card standards
+#### HF card standards
 
 RF communication: ISO 14443 A, ISO 14443 B, ISO 15693, ISO 18092
 
