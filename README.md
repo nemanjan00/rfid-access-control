@@ -32,6 +32,10 @@ If you want to find more about some kind of credential, please, bring it and I w
 * [About presentation](#about-presentation)
 * [Access control system](#access-control-system)
 * [Card](#card)
+	* [Powering card](#powering-card)
+	* [Data modulation](#data-modulation)
+	* [LF cards](#lf-cards)
+	* [HF cards](#hf-cards)
 * [Controller](#controller)
 * [Attacks](#attacks)
 * [Extra - Privacy concerns with UHF RFID cards](#extra---privacy-concerns-with-uhf-rfid-cards)
@@ -87,6 +91,32 @@ Frequency:
  * HF (13.5Mhz)
  
  * UHF (300Mhz - 3Ghz) - Mostly for inventory systems, parking and tolls
+
+### Powering card
+
+Electromagnetic induction
+
+### Data modulation
+
+Load modulation
+
+### LF cards
+
+ * One-way communication or simple two-way communication
+
+ * Slow communication
+
+ * Mostly no security features
+
+### HF cards
+
+ * Two-way communication
+
+ * Fast communication
+
+ * Lower range
+
+ * Very flexible in terms of features
 
 ## Controller
 
