@@ -43,25 +43,25 @@ If you want to find more about some kind of credential, please, bring it and I w
 
 Scope: 
 
-	* RFID credentials
-
-	* RFID readers
-
-	* Highlevel controller overview
-
-	* Integrator mistakes and problems
+ * RFID credentials
+ 
+ * RFID readers
+ 
+ * Highlevel controller overview
+ 
+ * Integrator mistakes and problems
 
 Out of scope: 
 
-	* Magnetic tape
-
-	* Biometrics
-
-	* Plate recognition
-
-	* OSDP
-
-	* Business logic
+ * Magnetic tape
+ 
+ * Biometrics
+ 
+ * Plate recognition
+ 
+ * OSDP
+ 
+ * Business logic
 
 ## Access control system
 
