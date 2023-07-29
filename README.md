@@ -90,6 +90,28 @@ Frequency:
 
 ## Controller
 
+Input signal:
+
+ * Wiegand
+
+ * OSDP (out of scope)
+
 ## Attacks
 
 ## Extra - Privacy concerns with UHF RFID cards
+
+Product identification by GS1 standards
+
+ * UPC
+
+  * Company prefix
+
+  * Item reference number
+
+ * EPC
+
+  * Company prefix
+
+  * Item reference number
+
+  * Product serial number
