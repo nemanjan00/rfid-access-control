@@ -156,6 +156,8 @@ RF communication: ISO 14443 A, ISO 14443 B, ISO 15693, ISO 18092
 
 Application protocols: ISO 7816 (APDU) over ISO 14443 A/ISO 14443 B, Mifare Classic, Mifare Ultralight, ISO 15693 (NFC-V)
 
+Implementations either extend existing command set or utilize ISO 7816 (APDU) over underlaying protocols.
+
 ## Controller
 
 Input signal:
@@ -171,6 +173,20 @@ Output signal:
  * Audiovisual feedback
 
 ## Attacks
+
+ * Cloning credentials
+
+ * Hardcoded/default credentials
+
+ * Fuzzing attacks
+
+ * Downgrade attacks
+
+ * Crypto or PRNG implementation attacks (for example nested, hardnested and darkside attacks on Crypto1)
+
+ * Wiegand sniffing and replay
+
+ * Controller and reader combo attacks
 
 ## Extra - Privacy concerns with UHF RFID cards
 
