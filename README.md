@@ -108,6 +108,12 @@ Load modulation
 
  * Mostly no security features
 
+ * Simple implementations
+
+   * Modulation
+
+   * Baudrate
+
 ### HF cards
 
  * Two-way communication
