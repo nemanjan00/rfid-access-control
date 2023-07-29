@@ -38,6 +38,7 @@ If you want to find more about some kind of credential, please, bring it and I w
 		* [LF card standards](#lf-card-standards)
 	* [HF cards](#hf-cards)
 		* [HF card standards](#hf-card-standards)
+	* [UHF cards](#uhf-cards)
 * [Controller](#controller)
 * [Attacks](#attacks)
 * [Extra - Privacy concerns with UHF RFID cards](#extra---privacy-concerns-with-uhf-rfid-cards)
@@ -157,6 +158,14 @@ RF communication: ISO 14443 A, ISO 14443 B, ISO 15693, ISO 18092
 Application protocols: ISO 7816 (APDU) over ISO 14443 A/ISO 14443 B, Mifare Classic, Mifare Ultralight, ISO 15693 (NFC-V)
 
 Implementations either extend existing command set or utilize ISO 7816 (APDU) over underlaying protocols.
+
+### UHF cards
+
+ISO 18000
+
+Unique ID is called TID
+
+Has readable memory
 
 ## Controller
 
