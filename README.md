@@ -34,6 +34,7 @@ If you want to find more about some kind of credential, please, bring it and I w
 * [Card](#card)
 * [Controller](#controller)
 * [Attacks](#attacks)
+* [Extra - Privacy concerns with UHF RFID cards](#extra---privacy-concerns-with-uhf-rfid-cards)
 
 <!-- vim-markdown-toc -->
 
@@ -71,6 +72,24 @@ Card -> Reader -> Controller -> Door
 
 ## Card
 
+Unique ID
+
+Power supply:
+
+ * Active
+
+ * Passive
+
+Frequency:
+
+ * LF (125kHz, 134khz)
+
+ * HF (13.5Mhz)
+ 
+ * UHF (300Mhz - 3Ghz) - Mostly for inventory systems, parking and tolls
+
 ## Controller
 
 ## Attacks
+
+## Extra - Privacy concerns with UHF RFID cards
