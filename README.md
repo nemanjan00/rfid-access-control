@@ -48,13 +48,13 @@ If you want to find more about some kind of credential, please, bring it and I w
 
 ## About me
 
-* nemanjan00
-
-* I like to take things apart
-
-* Sometimes do not put them back togetger
-
-* Reverse Engineering, RND and DevOps @ Constallation
+ * nemanjan00
+ 
+ * I like to take things apart
+ 
+ * Sometimes do not put them back togetger
+ 
+ * Reverse Engineering, RND and DevOps @ Constallation
 
 ## About presentation
 
@@ -226,7 +226,9 @@ Product identification by GS1 standards
 
 ## About the community
 
-* Iceman Discord (1$ donation)
-
-* RRG Github
+ * Iceman Discord (1$ donation)
+ 
+ * Abstract Security Discord
+ 
+ * RRG Github
 
