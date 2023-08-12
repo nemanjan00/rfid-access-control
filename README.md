@@ -32,20 +32,29 @@ If you want to find more about some kind of credential, please, bring it and I w
 * [About presentation](#about-presentation)
 * [Access control system](#access-control-system)
 * [Card](#card)
-	* [Powering card](#powering-card)
-	* [Data modulation](#data-modulation)
-	* [LF cards](#lf-cards)
-		* [LF card standards](#lf-card-standards)
-	* [HF cards](#hf-cards)
-		* [HF card standards](#hf-card-standards)
-	* [UHF cards](#uhf-cards)
+    * [Powering card](#powering-card)
+    * [Data modulation](#data-modulation)
+    * [LF cards](#lf-cards)
+        * [LF card standards](#lf-card-standards)
+    * [HF cards](#hf-cards)
+        * [HF card standards](#hf-card-standards)
+    * [UHF cards](#uhf-cards)
 * [Controller](#controller)
 * [Attacks](#attacks)
 * [Extra - Privacy concerns with UHF RFID cards](#extra---privacy-concerns-with-uhf-rfid-cards)
+* [About the community](#about-the-community)
 
 <!-- vim-markdown-toc -->
 
 ## About me
+
+* nemanjan00
+
+* I like to take things apart
+
+* Sometimes do not put them back togetger
+
+* Reverse Engineering, RND and DevOps @ Constallation
 
 ## About presentation
 
@@ -214,3 +223,10 @@ Product identification by GS1 standards
    * Item reference number
  
    * Product serial number
+
+## About the community
+
+* Iceman Discord (1$ donation)
+
+* RRG Github
+
