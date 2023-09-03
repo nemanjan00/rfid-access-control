@@ -32,10 +32,11 @@ If you want to find more about some kind of credential, please, bring it and I w
 * [About presentation](#about-presentation)
 * [Access control system](#access-control-system)
 * [Card](#card)
-    * [Powering card](#powering-card)
-    * [Data modulation](#data-modulation)
+    * [Powering card - Electromagnetic induction](#powering-card---electromagnetic-induction)
+    * [Data modulation - Load modulation](#data-modulation---load-modulation)
     * [LF cards](#lf-cards)
         * [LF card standards](#lf-card-standards)
+        * [Vulnerabilities and characteristics](#vulnerabilities-and-characteristics)
     * [HF cards](#hf-cards)
         * [HF card standards](#hf-card-standards)
     * [UHF cards](#uhf-cards)
@@ -108,13 +109,35 @@ Frequency:
  
  * UHF (300Mhz - 3Ghz) - Mostly for inventory systems, parking and tolls
 
-### Powering card
+### Powering card - Electromagnetic induction
 
-Electromagnetic induction
+Current gets induced in one of these cases:
 
-### Data modulation
+ * Conductor moves in constant field
 
-Load modulation
+ * Conductor is in alternating field
+
+How is this used?
+
+ * Sinusoid signal at proper frequency (125kHz for example)
+
+ * Resonant antenna
+
+  * Antenna length depends on wavelength (length light travels during one oscilation)
+
+  * Lower frequency, bigger antenna
+
+### Data modulation - Load modulation
+
+ * Load on card = Load on power source
+
+ * Increase in load = Decrease in voltage
+
+ * It can be measured across both antenna
+
+ * It can be measured in field
+
+ * Switching load on and off can be used for modulation
 
 ### LF cards
 
@@ -147,6 +170,14 @@ Load modulation
  * T5577 can emulate other cards
 
  * EM4305 can emulate other cards
+
+#### Vulnerabilities and characteristics
+
+ * Trivial to read
+
+ * Trivial to clone or emulate
+
+ * Requires big antennas for great performance, due to low frequency
 
 ### HF cards
 
