@@ -123,9 +123,9 @@ How is this used?
 
  * Resonant antenna
 
-  * Antenna length depends on wavelength (length light travels during one oscilation)
+   * Antenna length depends on wavelength (length light travels during one oscilation)
 
-  * Lower frequency, bigger antenna
+   * Lower frequency, bigger antenna
 
 ### Data modulation - Load modulation
 
