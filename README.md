@@ -38,6 +38,7 @@ If you want to find more about some kind of credential, please, bring it and I w
         * [LF card standards](#lf-card-standards)
         * [Vulnerabilities and characteristics](#vulnerabilities-and-characteristics)
     * [HF cards](#hf-cards)
+        * [Vulnerabilities and characteristics](#vulnerabilities-and-characteristics-1)
         * [HF card standards](#hf-card-standards)
     * [UHF cards](#uhf-cards)
 * [Controller](#controller)
@@ -190,6 +191,22 @@ How is this used?
  * Very flexible in terms of features
 
  * Quite a few standards, substandards and classes of standards implementations
+
+#### Vulnerabilities and characteristics
+
+ * More advanced modulation techniques
+
+ * Proprietary communication protocols
+
+ * Sometimes encrypted
+
+ * Sometimes programmable (Java SmartCard)
+
+ * Readers do not always use proprietary features and sometimes rely on low level stuff like UID)
+
+ * Can be cloned, but relies on understandind the tech implemented in a card
+
+ * Higher frequency means smaller performant antennas = long range cloning (few 10s of cm)
 
 #### HF card standards
 
