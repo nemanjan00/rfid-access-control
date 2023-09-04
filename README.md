@@ -34,6 +34,7 @@ If you want to find more about some kind of credential, please, bring it and I w
 * [Card](#card)
     * [Powering card - Electromagnetic induction](#powering-card---electromagnetic-induction)
     * [Data modulation - Load modulation](#data-modulation---load-modulation)
+    * [Command modulation](#command-modulation)
     * [LF cards](#lf-cards)
         * [LF card standards](#lf-card-standards)
         * [Vulnerabilities and characteristics](#vulnerabilities-and-characteristics)
@@ -141,6 +142,12 @@ How is this used?
  * It can be measured in field (sniffing)
 
  * Switching load on and off can be used for modulation
+
+### Command modulation
+
+ * Capacitor can be used to store power
+
+ * Sine cycles can be skipped, to modulate data (commands)
 
 ### LF cards
 
