@@ -174,6 +174,8 @@ How is this used?
 
  * EM4305 can emulate other cards
 
+ * ISO 11784 / 11785 Standard - Animal chips
+
 #### Vulnerabilities and characteristics
 
  * Trivial to read
