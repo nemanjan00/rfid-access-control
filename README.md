@@ -220,6 +220,8 @@ How is this used?
 
  * Quite a few standards, substandards and classes of standards implementations
 
+ * Some standards support anti-collision
+
 #### Vulnerabilities and characteristics
 
  * More advanced modulation techniques
