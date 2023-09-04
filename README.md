@@ -46,6 +46,7 @@ If you want to find more about some kind of credential, please, bring it and I w
     * [UHF cards](#uhf-cards)
 * [Controller](#controller)
 * [Attacks](#attacks)
+    * [Controller and reader combo attacks](#controller-and-reader-combo-attacks)
 * [Extra - Privacy concerns with UHF RFID cards](#extra---privacy-concerns-with-uhf-rfid-cards)
 * [About the community](#about-the-community)
 
@@ -294,6 +295,24 @@ Output signal:
  * Wiegand sniffing and replay
 
  * Controller and reader combo attacks
+
+### Controller and reader combo attacks
+
+ * Push to unlock button is on the outside
+
+   * Signal wire is connected to VCC using pull up resistor
+
+   * Button connects signal wire to ground
+
+   * When voltage falls below certain value, relay is connected, to unlock
+
+   * Color scheme for wiring is well known
+
+ * Relay is on the outside
+
+   * Relay = Electromagnet connected to metal plate and metal plate on spring
+
+   * External magnetic field can activate relay
 
 ## Extra - Privacy concerns with UHF RFID cards
 
