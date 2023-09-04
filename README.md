@@ -256,9 +256,9 @@ Implementations either extend existing command set or utilize ISO 7816 (APDU) ov
 
  * Long range readers
 
- * PN532
+ * PN532 (libNFC)
 
- * DL533N
+ * DL533N (libNFC)
 
 ### UHF cards
 
