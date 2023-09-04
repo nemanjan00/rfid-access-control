@@ -46,6 +46,8 @@ If you want to find more about some kind of credential, please, bring it and I w
     * [UHF cards](#uhf-cards)
 * [Controller](#controller)
 * [Attacks](#attacks)
+    * [Hardcoded/default credentials](#hardcodeddefault-credentials)
+    * [Fuzzing attacks](#fuzzing-attacks)
     * [Controller and reader combo attacks](#controller-and-reader-combo-attacks)
 * [Extra - Privacy concerns with UHF RFID cards](#extra---privacy-concerns-with-uhf-rfid-cards)
 * [About the community](#about-the-community)
@@ -296,7 +298,25 @@ Output signal:
 
  * Controller and reader combo attacks
 
+### Hardcoded/default credentials
+
+ * Some controllers come with default credentials hardcoded
+
+ * There are backdoor credentials
+
+ * Some of them have been leaked (No security by obscurity)
+
+### Fuzzing attacks
+
+ * There have been cases where readers did unlock for some extreme values
+
+ * 0x00000000
+
+ * 0xffffffff
+
 ### Controller and reader combo attacks
+
+ * Default password can be used to register new credentials
 
  * Push to unlock button is on the outside
 
