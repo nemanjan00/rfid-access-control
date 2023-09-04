@@ -37,9 +37,11 @@ If you want to find more about some kind of credential, please, bring it and I w
     * [LF cards](#lf-cards)
         * [LF card standards](#lf-card-standards)
         * [Vulnerabilities and characteristics](#vulnerabilities-and-characteristics)
+        * [Tools](#tools)
     * [HF cards](#hf-cards)
         * [Vulnerabilities and characteristics](#vulnerabilities-and-characteristics-1)
         * [HF card standards](#hf-card-standards)
+        * [Tools](#tools-1)
     * [UHF cards](#uhf-cards)
 * [Controller](#controller)
 * [Attacks](#attacks)
@@ -54,7 +56,7 @@ If you want to find more about some kind of credential, please, bring it and I w
  
  * I like to take things apart
  
- * Sometimes do not put them back togetger
+ * Sometimes put them back togetger
  
  * Reverse Engineering, RND and DevOps @ Constallation
 
@@ -134,9 +136,9 @@ How is this used?
 
  * Increase in load = Decrease in voltage
 
- * It can be measured across both antenna
+ * It can be measured across both antennas
 
- * It can be measured in field
+ * It can be measured in field (sniffing)
 
  * Switching load on and off can be used for modulation
 
@@ -180,6 +182,22 @@ How is this used?
 
  * Requires big antennas for great performance, due to low frequency
 
+#### Tools
+
+ * White cloner
+
+ * Blue cloner
+
+ * Proxmark3
+
+ * Tinylabs Keysy
+
+ * Chameleon Ultra
+
+ * Flipper Zero
+
+ * IcopyX
+
 ### HF cards
 
  * Two-way communication
@@ -215,6 +233,22 @@ RF communication: ISO 14443 A, ISO 14443 B, ISO 15693, ISO 18092
 Application protocols: ISO 7816 (APDU) over ISO 14443 A/ISO 14443 B, Mifare Classic, Mifare Ultralight, ISO 15693 (NFC-V)
 
 Implementations either extend existing command set or utilize ISO 7816 (APDU) over underlaying protocols.
+
+#### Tools
+
+ * Proxmark3
+
+ * Chameleon Mini (Tiny)
+
+ * Chameleon Ultra
+
+ * Flipper Zero
+
+ * Long range readers
+
+ * PN532
+
+ * DL533N
 
 ### UHF cards
 
