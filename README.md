@@ -204,8 +204,6 @@ How is this used?
 
  * Fast communication
 
- * Lower range
-
  * Very flexible in terms of features
 
  * Quite a few standards, substandards and classes of standards implementations
