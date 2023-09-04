@@ -35,6 +35,7 @@ If you want to find more about some kind of credential, please, bring it and I w
     * [Powering card - Electromagnetic induction](#powering-card---electromagnetic-induction)
     * [Data modulation - Load modulation](#data-modulation---load-modulation)
     * [Command modulation](#command-modulation)
+    * [Figuring out the frequency](#figuring-out-the-frequency)
     * [LF cards](#lf-cards)
         * [LF card standards](#lf-card-standards)
         * [Vulnerabilities and characteristics](#vulnerabilities-and-characteristics)
@@ -151,6 +152,12 @@ How is this used?
  * Capacitor can be used to store power
 
  * Sine cycles can be skipped, to modulate data (commands)
+
+### Figuring out the frequency
+
+ * Flashlight (antennas do not look the same)
+
+ * Field detector
 
 ### LF cards
 
