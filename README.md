@@ -31,25 +31,25 @@ If you want to find more about some kind of credential, please, bring it and I w
 * [About me](#about-me)
 * [About presentation](#about-presentation)
 * [Access control system](#access-control-system)
-* [Card](#card)
-    * [Powering card - Electromagnetic induction](#powering-card---electromagnetic-induction)
-    * [Data modulation - Load modulation](#data-modulation---load-modulation)
-    * [Command modulation](#command-modulation)
-    * [Figuring out the frequency](#figuring-out-the-frequency)
-    * [LF cards](#lf-cards)
-        * [LF card standards](#lf-card-standards)
-        * [Vulnerabilities and characteristics](#vulnerabilities-and-characteristics)
-        * [Tools](#tools)
-    * [HF cards](#hf-cards)
-        * [Vulnerabilities and characteristics](#vulnerabilities-and-characteristics-1)
-        * [HF card standards](#hf-card-standards)
-        * [Tools](#tools-1)
-    * [UHF cards](#uhf-cards)
+* [Card (ass grab tech)](#card-ass-grab-tech)
+	* [Powering card - Electromagnetic induction](#powering-card---electromagnetic-induction)
+	* [Data modulation - Load modulation](#data-modulation---load-modulation)
+	* [Command modulation](#command-modulation)
+	* [Figuring out the frequency](#figuring-out-the-frequency)
+	* [LF cards](#lf-cards)
+		* [LF card standards](#lf-card-standards)
+		* [Vulnerabilities and characteristics](#vulnerabilities-and-characteristics)
+		* [Tools](#tools)
+	* [HF cards](#hf-cards)
+		* [Vulnerabilities and characteristics](#vulnerabilities-and-characteristics-1)
+		* [HF card standards](#hf-card-standards)
+		* [Tools](#tools-1)
+	* [UHF cards](#uhf-cards)
 * [Controller](#controller)
 * [Attacks](#attacks)
-    * [Hardcoded/default credentials](#hardcodeddefault-credentials)
-    * [Fuzzing attacks](#fuzzing-attacks)
-    * [Controller and reader combo attacks](#controller-and-reader-combo-attacks)
+	* [Hardcoded/default credentials](#hardcodeddefault-credentials)
+	* [Fuzzing attacks](#fuzzing-attacks)
+	* [Controller and reader combo attacks](#controller-and-reader-combo-attacks)
 * [Extra - Privacy concerns with UHF RFID cards](#extra---privacy-concerns-with-uhf-rfid-cards)
 * [About the community](#about-the-community)
 
@@ -95,7 +95,7 @@ Out of scope:
 Card -> Reader -> Controller -> Door
 ```
 
-## Card
+## Card (ass grab tech)
 
 Unique ID
 
