@@ -92,9 +92,7 @@ Out of scope:
 
 ## Access control system
 
-```
-Card -> Reader -> Controller -> Door
-```
+![](images/architecture.png)
 
 ## Card (ass grab tech)
 
@@ -135,6 +133,10 @@ How is this used?
    * Antenna length depends on wavelength (length light travels during one oscilation)
 
    * Lower frequency, bigger antenna
+
+### Powering card showcase
+
+![](images/scope_screenshot.png)
 
 ### Command modulation
 
@@ -292,7 +294,13 @@ Output signal:
 
 ### Wiegand
 
+![](images/logic_photo.jpg)
 
+![](images/logic_screenshot.png)
+
+#### Wiegand to ID
+
+![](images/logic_decoded_screenshot.png)
 
 ## Attacks
 
