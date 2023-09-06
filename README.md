@@ -301,6 +301,8 @@ Output signal:
 
    * External magnetic field can activate relay
 
+ * Unused wiegand wires usually present
+
 # Extra - Privacy concerns with UHF RFID cards
 
 Product identification by GS1 standards
