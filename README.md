@@ -326,9 +326,9 @@ Output signal:
 
  * There have been cases where readers did unlock for some extreme values
 
- * 0x00000000
+ * 0x0000000000
 
- * 0xffffffff
+ * 0xFFFFFFFFFF
 
 ### Controller and reader combo attacks
 
@@ -370,9 +370,7 @@ Product identification by GS1 standards
 
 ## About the community
 
- * Iceman Discord (1$ donation)
- 
- * Abstract Security Discord
+ * Iceman Discord
  
  * RRG Github
 
