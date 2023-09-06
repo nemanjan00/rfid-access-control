@@ -244,9 +244,9 @@ Output signal:
 
 ![](images/logic_photo.jpg)
 
-![](images/logic_screenshot.png)
-
 # Wiegand to ID
+
+![](images/logic_screenshot.png)
 
 ![](images/logic_decoded_screenshot.png)
 
