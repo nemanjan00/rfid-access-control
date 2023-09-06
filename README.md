@@ -204,19 +204,14 @@ How is this used?
 
 #### Tools
 
- * Proxmark3
-
- * White cloner
-
- * Blue cloner
-
- * Tinylabs Keysy
-
- * Chameleon Ultra
-
- * Flipper Zero
-
- * IcopyX
+|Tool|Read|Write|Emulate|Note|
+|-|-|-|-|-|
+|Proxmark3|✔|✔|✔|Low level implementation|
+|White cloner|✔|✔|❌|No display for ID|
+|Blue cloner|✔|✔|❌|Sets password|
+|Tinylabs Keysy|✔|✔|✔|Closed source|
+|Chameleon Ultra|✔|✔|✔|Only EM4100 right now|
+|Flipper Zero|✔|✔|✔|Great support|
 
 ### HF cards
 
