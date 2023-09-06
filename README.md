@@ -15,7 +15,7 @@ toc: true
  
  * I like to take things apart
  
- * Sometimes put them back togetger
+ * Sometimes put them back together
  
  * Reverse Engineering, RND and DevOps @ Constallation
 
