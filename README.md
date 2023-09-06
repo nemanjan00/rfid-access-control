@@ -6,7 +6,6 @@ colortheme: "dolphin"
 fontsize: 10pt
 lang: en-US
 mainfont: Noto Sans
-toc: true
 ---
 
 # About me
