@@ -32,24 +32,25 @@ If you want to find more about some kind of credential, please, bring it and I w
 * [About presentation](#about-presentation)
 * [Access control system](#access-control-system)
 * [Card (ass grab tech)](#card-ass-grab-tech)
-	* [Powering card - Electromagnetic induction](#powering-card---electromagnetic-induction)
-	* [Data modulation - Load modulation](#data-modulation---load-modulation)
-	* [Command modulation](#command-modulation)
-	* [Figuring out the frequency](#figuring-out-the-frequency)
-	* [LF cards](#lf-cards)
-		* [LF card standards](#lf-card-standards)
-		* [Vulnerabilities and characteristics](#vulnerabilities-and-characteristics)
-		* [Tools](#tools)
-	* [HF cards](#hf-cards)
-		* [Vulnerabilities and characteristics](#vulnerabilities-and-characteristics-1)
-		* [HF card standards](#hf-card-standards)
-		* [Tools](#tools-1)
-	* [UHF cards](#uhf-cards)
+    * [Powering card - Electromagnetic induction](#powering-card---electromagnetic-induction)
+    * [Command modulation](#command-modulation)
+    * [Data modulation - Load modulation](#data-modulation---load-modulation)
+    * [Figuring out the frequency](#figuring-out-the-frequency)
+    * [LF cards](#lf-cards)
+        * [LF card standards](#lf-card-standards)
+        * [Vulnerabilities and characteristics](#vulnerabilities-and-characteristics)
+        * [Tools](#tools)
+    * [HF cards](#hf-cards)
+        * [Vulnerabilities and characteristics](#vulnerabilities-and-characteristics-1)
+        * [HF card standards](#hf-card-standards)
+        * [Tools](#tools-1)
+    * [UHF cards](#uhf-cards)
 * [Controller](#controller)
+    * [Wiegand](#wiegand)
 * [Attacks](#attacks)
-	* [Hardcoded/default credentials](#hardcodeddefault-credentials)
-	* [Fuzzing attacks](#fuzzing-attacks)
-	* [Controller and reader combo attacks](#controller-and-reader-combo-attacks)
+    * [Hardcoded/default credentials](#hardcodeddefault-credentials)
+    * [Fuzzing attacks](#fuzzing-attacks)
+    * [Controller and reader combo attacks](#controller-and-reader-combo-attacks)
 * [Extra - Privacy concerns with UHF RFID cards](#extra---privacy-concerns-with-uhf-rfid-cards)
 * [About the community](#about-the-community)
 
@@ -75,7 +76,7 @@ Scope:
  
  * Highlevel controller overview
  
- * Integrator mistakes and problems
+ * Integrator and manufacturers mistakes and problems
 
 Out of scope: 
 
@@ -135,6 +136,12 @@ How is this used?
 
    * Lower frequency, bigger antenna
 
+### Command modulation
+
+ * Capacitor can be used to store power
+
+ * Sine cycles can be skipped, to modulate data (commands)
+
 ### Data modulation - Load modulation
 
  * Load on card = Load on power source
@@ -146,12 +153,6 @@ How is this used?
  * It can be measured in field (sniffing)
 
  * Switching load on and off can be used for modulation
-
-### Command modulation
-
- * Capacitor can be used to store power
-
- * Sine cycles can be skipped, to modulate data (commands)
 
 ### Figuring out the frequency
 
@@ -189,8 +190,6 @@ How is this used?
 
  * T5577 can emulate other cards
 
- * EM4305 can emulate other cards
-
  * ISO 11784 / 11785 Standard - Animal chips
 
 #### Vulnerabilities and characteristics
@@ -203,11 +202,11 @@ How is this used?
 
 #### Tools
 
+ * Proxmark3
+
  * White cloner
 
  * Blue cloner
-
- * Proxmark3
 
  * Tinylabs Keysy
 
@@ -290,6 +289,10 @@ Output signal:
  * Control the relay
 
  * Audiovisual feedback
+
+### Wiegand
+
+
 
 ## Attacks
 
