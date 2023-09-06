@@ -86,7 +86,7 @@ How is this used?
 
    * Lower frequency, bigger antenna
 
-### Powering card showcase
+## Powering card showcase
 
 ![](images/scope_screenshot.png)
 
@@ -130,7 +130,7 @@ How is this used?
 
    * Inverted
 
-### LF card standards
+## LF card standards
 
  * HID Proxcard
 
@@ -146,7 +146,7 @@ How is this used?
 
  * ISO 11784 / 11785 Standard - Animal chips
 
-### Vulnerabilities and characteristics
+## Vulnerabilities and characteristics
 
  * Trivial to read
 
@@ -154,7 +154,7 @@ How is this used?
 
  * Requires big antennas for great performance, due to low frequency
 
-### Tools
+## Tools
 
 |Tool|Read|Write|Emulate|Note|
 |-|-|-|-|-|
@@ -178,7 +178,7 @@ How is this used?
 
  * Some standards support anti-collision
 
-### Vulnerabilities and characteristics
+## Vulnerabilities and characteristics
 
  * More advanced modulation techniques
 
@@ -194,7 +194,7 @@ How is this used?
 
  * Higher frequency means smaller performant antennas = long range cloning (few 10s of cm)
 
-### HF card standards
+## HF card standards
 
 RF communication: ISO 14443 A, ISO 14443 B, ISO 15693, ISO 18092
 
@@ -202,7 +202,7 @@ Application protocols: ISO 7816 (APDU) over ISO 14443 A/ISO 14443 B, Mifare Clas
 
 Implementations either extend existing command set or utilize ISO 7816 (APDU) over underlaying protocols.
 
-### Tools
+## Tools
 
 |Tool|Read|Write|Emulate|Note|
 |-|-|-|-|-|
