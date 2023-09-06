@@ -68,7 +68,7 @@ Frequency:
  
  * UHF (300Mhz - 3Ghz) - Mostly for inventory systems, parking and tolls
 
-## Powering card - Electromagnetic induction
+# Powering card - Electromagnetic induction
 
 Current gets induced in one of these cases:
 
@@ -86,17 +86,17 @@ How is this used?
 
    * Lower frequency, bigger antenna
 
-## Powering card showcase
+# Powering card showcase
 
 ![](images/scope_screenshot.png)
 
-## Command modulation - Reader to card
+# Command modulation - Reader to card
 
  * Capacitor can be used to store power
 
  * Sine cycles can be skipped, to modulate data (commands)
 
-## Data modulation - Load modulation - Card to reader
+# Data modulation - Load modulation - Card to reader
 
  * Load on card = Load on power source
 
@@ -108,13 +108,13 @@ How is this used?
 
  * Switching load on and off can be used for modulation
 
-## Figuring out the frequency
+# Figuring out the frequency
 
  * Flashlight (antennas do not look the same)
 
  * Field detector
 
-## LF cards
+# LF cards
 
  * One-way communication or simple two-way communication
 
@@ -130,7 +130,7 @@ How is this used?
 
    * Inverted
 
-## LF card standards
+# LF card standards
 
  * HID Proxcard
 
@@ -146,7 +146,7 @@ How is this used?
 
  * ISO 11784 / 11785 Standard - Animal chips
 
-## Vulnerabilities and characteristics
+# Vulnerabilities and characteristics
 
  * Trivial to read
 
@@ -154,7 +154,7 @@ How is this used?
 
  * Requires big antennas for great performance, due to low frequency
 
-## Tools
+# Tools
 
 |Tool|Read|Write|Emulate|Note|
 |-|-|-|-|-|
@@ -166,7 +166,7 @@ How is this used?
 |Flipper Zero|Yes|Yes|Yes|Great support|
 |ICopyX|Yes|Yes|Yes|Check emulation|
 
-## HF cards
+# HF cards
 
  * Two-way communication
 
@@ -178,7 +178,7 @@ How is this used?
 
  * Some standards support anti-collision
 
-## Vulnerabilities and characteristics
+# Vulnerabilities and characteristics
 
  * More advanced modulation techniques
 
@@ -194,7 +194,7 @@ How is this used?
 
  * Higher frequency means smaller performant antennas = long range cloning (few 10s of cm)
 
-## HF card standards
+# HF card standards
 
 RF communication: ISO 14443 A, ISO 14443 B, ISO 15693, ISO 18092
 
@@ -202,7 +202,7 @@ Application protocols: ISO 7816 (APDU) over ISO 14443 A/ISO 14443 B, Mifare Clas
 
 Implementations either extend existing command set or utilize ISO 7816 (APDU) over underlaying protocols.
 
-## Tools
+# Tools
 
 |Tool|Read|Write|Emulate|Note|
 |-|-|-|-|-|
@@ -216,7 +216,7 @@ Implementations either extend existing command set or utilize ISO 7816 (APDU) ov
 
 Type of card dependant
 
-## UHF cards
+# UHF cards
 
 ![](images/uhf.jpg)
 
@@ -240,13 +240,13 @@ Output signal:
 
  * Audiovisual feedback
 
-## Wiegand
+# Wiegand
 
 ![](images/logic_photo.jpg)
 
 ![](images/logic_screenshot.png)
 
-## Wiegand to ID
+# Wiegand to ID
 
 ![](images/logic_decoded_screenshot.png)
 
@@ -266,7 +266,7 @@ Output signal:
 
  * Controller and reader combo attacks
 
-## Hardcoded/default credentials
+# Hardcoded/default credentials
 
  * Some controllers come with default credentials hardcoded
 
@@ -274,7 +274,7 @@ Output signal:
 
  * Some of them have been leaked (No security by obscurity)
 
-## Fuzzing attacks
+# Fuzzing attacks
 
  * There have been cases where readers did unlock for some extreme values
 
@@ -282,7 +282,7 @@ Output signal:
 
  * 0xFFFFFFFFFF
 
-## Controller and reader combo attacks
+# Controller and reader combo attacks
 
  * Default password can be used to register new credentials
 
