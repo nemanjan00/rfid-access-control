@@ -1,62 +1,13 @@
-# RFID access control system, what it is and how to defeat it
+---
+title: "RFID access control system, what it is and how to defeat it"
+author: "Nemanja Nedeljkovic"
+theme: "Warsaw"
+colortheme: "beaver"
+lang: en-US
+toc: true
+---
 
-## Description
-
-The presentation will consist of multiple parts.
-
-The first part will break down the architecture of the average access control system, a high-level overview of the card, reader, communication with controller and controller, and a bit about electronic locks.
-
-The second part will get into different types of cards and readers, including readers with backward compatibility and how that can be exploited.
-
-The third part will talk about readers talking to controllers, and usual ways readers talk to controllers, and how that can be exploited.
-
-The fourth part will discuss common mistakes integrators and equipment manufacturers make while producing RFID access control systems and how to exploit them.
-
-## Abstract
-
-People attending the presentation will have the chance to try out some of the tools and see an example access control system.
-
-While exploring the interesting world of RFID, witnessing a disappointing amount of improper implementations of access control systems, and dealing with shady vendors for backdoored cards, I realized there is a need for the proper education of people and making sure they know what to look for.
-
-Prior knowledge about any of the topics of this presentation is optional, and it is appropriate for both beginners and someone who might already know something about this topic.
-
-While some of the techniques and demos might look like some James Bond-level magic, most of the stuff I will be demoing and talking about can be done with pretty inexpensive equipment (you might need to spend some money if you decide to go deep into research equipment) and without much prior learning.
-
-If you want to find more about some kind of credential, please, bring it and I will take a look at it
-
-## Table of contents
-
-<!-- vim-markdown-toc GFM -->
-
-* [About me](#about-me)
-* [About presentation](#about-presentation)
-* [Access control system](#access-control-system)
-* [Card (ass grab tech)](#card-ass-grab-tech)
-    * [Powering card - Electromagnetic induction](#powering-card---electromagnetic-induction)
-    * [Command modulation](#command-modulation)
-    * [Data modulation - Load modulation](#data-modulation---load-modulation)
-    * [Figuring out the frequency](#figuring-out-the-frequency)
-    * [LF cards](#lf-cards)
-        * [LF card standards](#lf-card-standards)
-        * [Vulnerabilities and characteristics](#vulnerabilities-and-characteristics)
-        * [Tools](#tools)
-    * [HF cards](#hf-cards)
-        * [Vulnerabilities and characteristics](#vulnerabilities-and-characteristics-1)
-        * [HF card standards](#hf-card-standards)
-        * [Tools](#tools-1)
-    * [UHF cards](#uhf-cards)
-* [Controller](#controller)
-    * [Wiegand](#wiegand)
-* [Attacks](#attacks)
-    * [Hardcoded/default credentials](#hardcodeddefault-credentials)
-    * [Fuzzing attacks](#fuzzing-attacks)
-    * [Controller and reader combo attacks](#controller-and-reader-combo-attacks)
-* [Extra - Privacy concerns with UHF RFID cards](#extra---privacy-concerns-with-uhf-rfid-cards)
-* [About the community](#about-the-community)
-
-<!-- vim-markdown-toc -->
-
-## About me
+# About me
 
  * nemanjan00
  
@@ -66,7 +17,7 @@ If you want to find more about some kind of credential, please, bring it and I w
  
  * Reverse Engineering, RND and DevOps @ Constallation
 
-## About presentation
+# About presentation
 
 Scope: 
 
@@ -90,11 +41,11 @@ Out of scope:
  
  * Business logic
 
-## Access control system
+# Access control system
 
 ![](images/architecture.png)
 
-## Card (ass grab tech)
+# Card (ass grab tech)
 
 Unique ID
 
@@ -116,7 +67,7 @@ Frequency:
  
  * UHF (300Mhz - 3Ghz) - Mostly for inventory systems, parking and tolls
 
-### Powering card - Electromagnetic induction
+## Powering card - Electromagnetic induction
 
 Current gets induced in one of these cases:
 
@@ -138,13 +89,13 @@ How is this used?
 
 ![](images/scope_screenshot.png)
 
-### Command modulation
+## Command modulation - Reader to card
 
  * Capacitor can be used to store power
 
  * Sine cycles can be skipped, to modulate data (commands)
 
-### Data modulation - Load modulation
+## Data modulation - Load modulation - Card to reader
 
  * Load on card = Load on power source
 
@@ -156,13 +107,13 @@ How is this used?
 
  * Switching load on and off can be used for modulation
 
-### Figuring out the frequency
+## Figuring out the frequency
 
  * Flashlight (antennas do not look the same)
 
  * Field detector
 
-### LF cards
+## LF cards
 
  * One-way communication or simple two-way communication
 
@@ -178,7 +129,7 @@ How is this used?
 
    * Inverted
 
-#### LF card standards
+### LF card standards
 
  * HID Proxcard
 
@@ -194,7 +145,7 @@ How is this used?
 
  * ISO 11784 / 11785 Standard - Animal chips
 
-#### Vulnerabilities and characteristics
+### Vulnerabilities and characteristics
 
  * Trivial to read
 
@@ -202,7 +153,7 @@ How is this used?
 
  * Requires big antennas for great performance, due to low frequency
 
-#### Tools
+### Tools
 
 |Tool|Read|Write|Emulate|Note|
 |-|-|-|-|-|
@@ -214,7 +165,7 @@ How is this used?
 |Flipper Zero|✔|✔|✔|Great support|
 |ICopyX|✔|✔|✔|Check emulation|
 
-### HF cards
+## HF cards
 
  * Two-way communication
 
@@ -226,7 +177,7 @@ How is this used?
 
  * Some standards support anti-collision
 
-#### Vulnerabilities and characteristics
+### Vulnerabilities and characteristics
 
  * More advanced modulation techniques
 
@@ -242,7 +193,7 @@ How is this used?
 
  * Higher frequency means smaller performant antennas = long range cloning (few 10s of cm)
 
-#### HF card standards
+### HF card standards
 
 RF communication: ISO 14443 A, ISO 14443 B, ISO 15693, ISO 18092
 
@@ -250,7 +201,7 @@ Application protocols: ISO 7816 (APDU) over ISO 14443 A/ISO 14443 B, Mifare Clas
 
 Implementations either extend existing command set or utilize ISO 7816 (APDU) over underlaying protocols.
 
-#### Tools
+### Tools
 
 |Tool|Read|Write|Emulate|Note|
 |-|-|-|-|-|
@@ -264,7 +215,7 @@ Implementations either extend existing command set or utilize ISO 7816 (APDU) ov
 
 Type of card dependant
 
-### UHF cards
+## UHF cards
 
 ![](images/uhf.jpg)
 
@@ -274,7 +225,7 @@ Unique ID is called TID
 
 Has readable memory
 
-## Controller
+# Controller
 
 Input signal:
 
@@ -288,17 +239,17 @@ Output signal:
 
  * Audiovisual feedback
 
-### Wiegand
+## Wiegand
 
 ![](images/logic_photo.jpg)
 
 ![](images/logic_screenshot.png)
 
-#### Wiegand to ID
+## Wiegand to ID
 
 ![](images/logic_decoded_screenshot.png)
 
-## Attacks
+# Attacks
 
  * Cloning credentials
 
@@ -314,7 +265,7 @@ Output signal:
 
  * Controller and reader combo attacks
 
-### Hardcoded/default credentials
+## Hardcoded/default credentials
 
  * Some controllers come with default credentials hardcoded
 
@@ -322,7 +273,7 @@ Output signal:
 
  * Some of them have been leaked (No security by obscurity)
 
-### Fuzzing attacks
+## Fuzzing attacks
 
  * There have been cases where readers did unlock for some extreme values
 
@@ -330,7 +281,7 @@ Output signal:
 
  * 0xFFFFFFFFFF
 
-### Controller and reader combo attacks
+## Controller and reader combo attacks
 
  * Default password can be used to register new credentials
 
@@ -350,7 +301,7 @@ Output signal:
 
    * External magnetic field can activate relay
 
-## Extra - Privacy concerns with UHF RFID cards
+# Extra - Privacy concerns with UHF RFID cards
 
 Product identification by GS1 standards
 
@@ -368,9 +319,8 @@ Product identification by GS1 standards
  
    * Product serial number
 
-## About the community
+# About the community
 
  * Iceman Discord
  
  * RRG Github
-
