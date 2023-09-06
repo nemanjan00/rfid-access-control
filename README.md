@@ -4,6 +4,7 @@ author: "Nemanja Nedeljkovic"
 theme: "Warsaw"
 colortheme: "beaver"
 lang: en-US
+mainfont: Noto Sans
 toc: true
 ---
 
@@ -157,13 +158,13 @@ How is this used?
 
 |Tool|Read|Write|Emulate|Note|
 |-|-|-|-|-|
-|Proxmark3|✔|✔|✔|Steep learning curve|
-|White cloner|✔|✔|❌|No display for ID|
-|Blue cloner|✔|✔|❌|Sets password|
-|Tinylabs Keysy|✔|✔|✔|Closed source|
-|Chameleon Ultra|✔|✔|✔|Only EM4100 right now|
-|Flipper Zero|✔|✔|✔|Great support|
-|ICopyX|✔|✔|✔|Check emulation|
+|Proxmark3|Yes|Yes|Yes|Steep learning curve|
+|White cloner|Yes|Yes|No|No display for ID|
+|Blue cloner|Yes|Yes|No|Sets password|
+|Tinylabs Keysy|Yes|Yes|Yes|Closed source|
+|Chameleon Ultra|Yes|Yes|Yes|Only EM4100 right now|
+|Flipper Zero|Yes|Yes|Yes|Great support|
+|ICopyX|Yes|Yes|Yes|Check emulation|
 
 ## HF cards
 
@@ -205,13 +206,13 @@ Implementations either extend existing command set or utilize ISO 7816 (APDU) ov
 
 |Tool|Read|Write|Emulate|Note|
 |-|-|-|-|-|
-|Proxmark3|✔|✔|✔|Timing issues for emulation|
-|Chameleon Mini (Tiny)|✔|❌|✔|Timing issues for emulation|
-|Chameleon Ultra|✔|❌|✔|Still too new|
-|Flipper Zero|✔|✔|✔|Timing issues for emulation|
-|Long Range Raders|✔|✔|✔|10-20cm|
-|PN532|✔|✔|✔|LibNFC|
-|DL533N|✔|✔|✔|LibNFC|
+|Proxmark3|Yes|Yes|Yes|Timing issues for emulation|
+|Chameleon Mini (Tiny)|Yes|No|Yes|Timing issues for emulation|
+|Chameleon Ultra|Yes|No|Yes|Still too new|
+|Flipper Zero|Yes|Yes|Yes|Timing issues for emulation|
+|Long Range Raders|Yes|Yes|Yes|10-20cm|
+|PN532|Yes|Yes|Yes|LibNFC|
+|DL533N|Yes|Yes|Yes|LibNFC|
 
 Type of card dependant
 
