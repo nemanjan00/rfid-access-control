@@ -51,13 +51,13 @@ Unique ID
 
  * Different length
 
- * Magic cards
+ * Magic cards (Backdoored cards - changable UID)
 
 Power supply:
 
- * Active
+ * Active (Battery powered)
 
- * Passive
+ * Passive (Reader powered)
 
 Frequency:
 
