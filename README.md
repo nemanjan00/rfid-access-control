@@ -4,9 +4,6 @@ author: "Nemanja Nedeljkovic"
 theme: "Hannover"
 colortheme: "beaver"
 lang: en-US
-classoption: "aspectratio=169"
-fontsize: 10pt
-colortheme: "dolphin"
 mainfont: Noto Sans
 toc: true
 ---
