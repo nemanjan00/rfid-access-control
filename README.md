@@ -1,7 +1,6 @@
 ---
 title: "RFID access control system, what it is and how to defeat it"
 author: "Nemanja Nedeljkovic"
-theme: "Boxes"
 colortheme: "dolphin"
 fontsize: 10pt
 lang: en-US
