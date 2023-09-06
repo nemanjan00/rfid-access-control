@@ -206,12 +206,13 @@ How is this used?
 
 |Tool|Read|Write|Emulate|Note|
 |-|-|-|-|-|
-|Proxmark3|✔|✔|✔|Low level implementation|
+|Proxmark3|✔|✔|✔|Steep learning curve|
 |White cloner|✔|✔|❌|No display for ID|
 |Blue cloner|✔|✔|❌|Sets password|
 |Tinylabs Keysy|✔|✔|✔|Closed source|
 |Chameleon Ultra|✔|✔|✔|Only EM4100 right now|
 |Flipper Zero|✔|✔|✔|Great support|
+|ICopyX|✔|✔|✔|Check emulation|
 
 ### HF cards
 
@@ -251,21 +252,21 @@ Implementations either extend existing command set or utilize ISO 7816 (APDU) ov
 
 #### Tools
 
- * Proxmark3
+|Tool|Read|Write|Emulate|Note|
+|-|-|-|-|-|
+|Proxmark3|✔|✔|✔|Timing issues for emulation|
+|Chameleon Mini (Tiny)|✔|❌|✔|Timing issues for emulation|
+|Chameleon Ultra|✔|❌|✔|Still too new|
+|Flipper Zero|✔|✔|✔|Timing issues for emulation|
+|Long Range Raders|✔|✔|✔|10-20cm|
+|PN532|✔|✔|✔|LibNFC|
+|DL533N|✔|✔|✔|LibNFC|
 
- * Chameleon Mini (Tiny)
-
- * Chameleon Ultra
-
- * Flipper Zero
-
- * Long range readers
-
- * PN532 (libNFC)
-
- * DL533N (libNFC)
+Type of card dependant
 
 ### UHF cards
+
+![](images/uhf.jpg)
 
 ISO 18000
 
