@@ -353,16 +353,18 @@ Product identification by GS1 standards
 # H&M
 
 ```bash
-SERVICE="https://app2.hm.com/hmwebservices/service"
+SVC="https://app2.hm.com/hmwebservices/service"
 EPC="07314308132190"
 
-ID=$(curl "$SERVICE/app/getArticleByScannedBarcode/hm-serbia?gtinCodes=$EPC" \
-	-H "user-agent: targetapp_android_21" | jq -r ".[0]")
+ID=$(curl \ 
+    "$SVC/app/getArticleByScannedBarcode/hm-serbia?gtinCodes=$EPC" \
+    -H "user-agent: targetapp_android_21" | jq -r ".[0]")
 
 REAL_ID=$(echo $ID | cut -c1-10)
 
-curl "$SERVICE/article/get-article-by-code/hm-serbia/Online/$REAL_ID/sr.json" \
-	-H "user-agent: targetapp_android_21" | jq ".product.name"
+curl \
+    "$SVC/article/get-article-by-code/hm-serbia/Online/$REAL_ID/sr.json" \
+    -H "user-agent: targetapp_android_21" | jq ".product.name"
 ```
 
 # About the community
