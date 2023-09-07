@@ -17,13 +17,19 @@ mainfont: Noto Sans
  
  * Reverse Engineering, RND and DevOps @ Constallation
 
+# Access control system
+
+![](images/architecture.png)
+
 # About presentation
 
 Scope: 
 
- * RFID credentials
+ * RFID credentials (cards)
  
  * RFID readers
+
+ * Wiegand (Reader <-> controller protocol)
  
  * Highlevel controller overview
  
@@ -37,13 +43,9 @@ Out of scope:
  
  * Plate recognition
  
- * OSDP
+ * OSDP (Reader <-> controller protocol)
  
  * Business logic
-
-# Access control system
-
-![](images/architecture.png)
 
 # Card (ass grab tech)
 
