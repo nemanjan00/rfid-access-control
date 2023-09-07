@@ -111,6 +111,11 @@ How is this used?
 
  * Switching load on and off can be used for modulation
 
+```bash
+hf tune --bar
+lf tune --bar
+```
+
 # Figuring out the frequency
 
  * Flashlight (antennas do not look the same)
