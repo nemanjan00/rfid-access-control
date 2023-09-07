@@ -112,8 +112,14 @@ How is this used?
  * Switching load on and off can be used for modulation
 
 ```bash
-hf tune --bar
-lf tune --bar
+hf tune --mix
+lf tune --mix
+```
+
+```bash
+data plot
+lf search
+lf em 410x demod
 ```
 
 # Figuring out the frequency
