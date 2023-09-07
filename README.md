@@ -95,6 +95,8 @@ How is this used?
 
  * Sine cycles can be skipped, to modulate data (commands)
 
+![](images/t5577.png)
+
 # Data modulation - Load modulation - Card to reader
 
  * Load on card = Load on power source
@@ -112,6 +114,8 @@ How is this used?
  * Flashlight (antennas do not look the same)
 
  * Field detector
+
+![](images/cards.png)
 
 # LF cards
 
@@ -163,7 +167,7 @@ How is this used?
 |Tinylabs Keysy|Yes|Yes|Yes|Closed source|
 |Chameleon Ultra|Yes|Yes|Yes|Only EM4100 right now|
 |Flipper Zero|Yes|Yes|Yes|Great support|
-|ICopyX|Yes|Yes|Yes|Check emulation|
+|ICopyX|Yes|Yes|No||
 
 # HF cards
 
