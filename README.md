@@ -112,11 +112,13 @@ How is this used?
  * Switching load on and off can be used for modulation
 
 ```bash
+# showcase load modulation phenomenon
 hf tune --mix
 lf tune --mix
 ```
 
 ```bash
+# showcase card demodulation
 data plot
 lf search
 lf em 410x demod
