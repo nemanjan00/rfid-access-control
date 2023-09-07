@@ -322,6 +322,14 @@ Output signal:
 
  * Unused wiegand wires usually present
 
+# Push to exit
+
+![](images/button.jpg)
+
+# External relay
+
+![](images/relay.jpg)
+
 # Extra - Privacy concerns with UHF RFID cards
 
 Product identification by GS1 standards
@@ -339,6 +347,20 @@ Product identification by GS1 standards
    * Item reference number
  
    * Product serial number
+
+![](images/hm.jpg)
+
+# H&M
+
+```bash
+SERVICE="https://app2.hm.com/hmwebservices/service/app"
+
+curl "$SERVICE/getArticleByScannedBarcode/hm-serbia?gtinCodes=07314308132190" \
+    -H "user-agent: targetapp_android_21"
+
+curl "$SERVICE/get-article-by-code/hm-serbia/Online/1160627001/sr.json" \
+    -H "user-agent: targetapp_android_21" | jq '.product.name'
+```
 
 # About the community
 
