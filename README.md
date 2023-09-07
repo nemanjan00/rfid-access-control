@@ -228,7 +228,7 @@ Implementations either extend existing command set or utilize ISO 7816 (APDU) ov
 |Chameleon Mini (Tiny)|Yes|No|Yes|Timing issues for emulation|
 |Chameleon Ultra|Yes|No|Yes|Still too new|
 |Flipper Zero|Yes|Yes|Yes|Timing issues for emulation|
-|Long Range Raders|Yes|Yes|Yes|10-20cm|
+|Long Range Readers|Yes|Yes|Yes|10-20cm|
 |PN532|Yes|Yes|Yes|LibNFC|
 |DL533N|Yes|Yes|Yes|LibNFC|
 
