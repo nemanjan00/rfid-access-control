@@ -138,7 +138,7 @@ lf em 410x demod
 
  * Slow communication
 
- * Mostly no security features
+ * Mostly no security features (auth or encryption)
 
  * Simple implementations
 
