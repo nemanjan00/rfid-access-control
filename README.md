@@ -177,8 +177,8 @@ lf em 410x demod
 |Tool|Read|Write|Emulate|Note|
 |-|-|-|-|-|
 |Proxmark3|Yes|Yes|Yes|Steep learning curve|
-|White cloner|Yes|Yes|No|No display for ID|
-|Blue cloner|Yes|Yes|No|Sets password|
+|Blue cloner|Yes|Yes|No|No display for ID|
+|White cloner|Yes|Yes|No|Sets password|
 |Tinylabs Keysy|Yes|Yes|Yes|Closed source|
 |Chameleon Ultra|Yes|Yes|Yes|Only EM4100 right now|
 |Flipper Zero|Yes|Yes|Yes|Great support|
