@@ -278,6 +278,8 @@ Output signal:
 
  * Downgrade attacks
 
+ * Tearoff attacks
+
  * Crypto or PRNG implementation attacks (for example nested, hardnested and darkside attacks on Crypto1)
 
  * Wiegand sniffing and replay
